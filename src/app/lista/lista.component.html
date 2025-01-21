@@ -1,0 +1,23 @@
+<p>lista works!</p>
+<div class="container">
+    <div class="row">
+        <h1 [style.color]="propertyBinding" >{{titulo}}</h1>
+        <div class="col">
+            <ul class="list-group">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+                <li class="list-group-item">A fourth item</li>
+                <li class="list-group-item">And a fifth one</li>
+              </ul>
+        </div>
+    </div>
+
+    <div class="console">
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-primary" (click)="verTitulo()">Primary</button>
+            </div>
+        </div>
+    </div>
+</div>  
